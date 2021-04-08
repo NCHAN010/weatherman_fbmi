@@ -8,6 +8,8 @@ const app=express()
 remote: 
 remote: Verifying deploy... done.
 To https://git.heroku.com/weatherman-bot-fbmi54355.git*/
+
+//m.me/lilweather243
 //set your weatherman fb page access token
 const token='EAAoqVcUVHRkBALpcBgasWwccRqQSFtB2EVbEvXP3fO3PIE10TPxnymZAtXuWRmmAZALQJRfNbBN7UGWIs6Lak4Dd7jA7QFWtEd7IC4RLHhcFSnqKWrmhRi3m8OWZCNcZC18PZCuWqpdZCV1fZCNYApk1VZCfjb46Y6eqddPGeOcsBiNMatCOZC6xqcepGS83kbjIXq75GXtQWwQQEKFQCuk6ZA8ZAHV4wT0JZCeU8pRNSsPziwZDZD';
 const botServerUrl='https://weatherman-bot509.herokuapp.com/bot';
@@ -96,7 +98,7 @@ function sendTextMessage(sender,text)
         let messageData= {'text':text}
         request(
             {
-                url:'https://graph.facebook.com/v2.6/me/messages',
+                url:'https://www.messenger.com/t/110454131148915/?messaging_source=source%3Apages%3Amessage_shortlink',
                 qs:{access_token:token},
                 method:'POST',
                 json:
