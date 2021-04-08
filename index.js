@@ -98,7 +98,7 @@ function sendTextMessage(sender,text)
         let messageData= {'text':text}
         request(
             {
-                url:'m.me/lilweather243',
+                url:'https://graph.facebook.com/v2.6/me/messages',
                 qs:{access_token:token},
                 method:'POST',
                 json:
