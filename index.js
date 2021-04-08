@@ -35,7 +35,15 @@ app.listen(app.get('port'),function()
 {
     console.log('running on port',app.get('port'))
 })
-
+//for Facebook verification
+app.get('/webhook/', function(req,res)
+{
+    if(req.query['hub.verify_token']==='weatherman-bot-server')
+    {
+        res.send(req.query['hub.challenge'])
+    }
+    res.send('Error , wrong token')
+})
 app.post('/webhook/', function(req,res)
 {
     console.log(JSON.stringify(req.body));
