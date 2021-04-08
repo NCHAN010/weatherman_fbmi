@@ -11,9 +11,10 @@ To https://git.heroku.com/weatherman-bot-fbmi54355.git*/
 
 //m.me/lilweather243
 //set your weatherman fb page access token
-const token='6672ac8a1a36792c69892a291fbec256';
+//EAAEEpZANwd6UBAMx4HfVCPjZCKwno7hSX0geZC8FG0hE9aZCvbS52r8MawuViIV3z5Fazz7TV7WGSKGPsm7h0q9FX4mzc5FnDgYBQjFsr83aSil5HUqba7K2DgqYh1UDqAPdZCCXyg3bxg8XOkCBpafyhuZAJxBwTpieDyjOgvnWShqYH7vlZAL
+const token='EAAEEpZANwd6UBAMx4HfVCPjZCKwno7hSX0geZC8FG0hE9aZCvbS52r8MawuViIV3z5Fazz7TV7WGSKGPsm7h0q9FX4mzc5FnDgYBQjFsr83aSil5HUqba7K2DgqYh1UDqAPdZCCXyg3bxg8XOkCBpafyhuZAJxBwTpieDyjOgvnWShqYH7vlZAL';
 const botServerUrl='https://weatherman-bot509.herokuapp.com/bot';
-
+//6672ac8a1a36792c69892a291fbec256
 app.set('port',(process.env.PORT || 5000))
 
 //Process application/x-www-form-urlencoded
