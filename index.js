@@ -98,7 +98,7 @@ function sendTextMessage(sender,text)
         let messageData= {'text':text}
         request(
             {
-                url:'https://www.messenger.com/t/110454131148915/?messaging_source=source%3Apages%3Amessage_shortlink',
+                url:'m.me/lilweather243',
                 qs:{access_token:token},
                 method:'POST',
                 json:
