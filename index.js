@@ -4,7 +4,10 @@ const bodyParser=require('body-parser')
 const request =require('request')
 
 const app=express()
-
+/* https://weatherman-bot-fbmi54355.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/weatherman-bot-fbmi54355.git*/
 //set your weatherman fb page access token
 const token='EAAoqVcUVHRkBALpcBgasWwccRqQSFtB2EVbEvXP3fO3PIE10TPxnymZAtXuWRmmAZALQJRfNbBN7UGWIs6Lak4Dd7jA7QFWtEd7IC4RLHhcFSnqKWrmhRi3m8OWZCNcZC18PZCuWqpdZCV1fZCNYApk1VZCfjb46Y6eqddPGeOcsBiNMatCOZC6xqcepGS83kbjIXq75GXtQWwQQEKFQCuk6ZA8ZAHV4wT0JZCeU8pRNSsPziwZDZD';
 const botServerUrl='https://weatherman-bot509.herokuapp.com/bot';
